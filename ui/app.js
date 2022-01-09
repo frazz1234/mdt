@@ -2286,7 +2286,7 @@ $(document).ready(() => {
                 $(".manage-profile-name-input-2").attr("readonly", true)
                 $("#reports-officers-involved-tag-title").html("Officers Involved")
                 $(".roster-iframe").attr("src", "https://www.google.com/logos/fnbx/solitaire/standalone.html")
-            } else if (sentJob == 'ambluance') {
+            } else if (sentJob == 'ambulance') {
                 $("#home-warrants-container").fadeOut(0)
                 $("#home-reports-container").fadeIn(0)
                 document.documentElement.style.setProperty('--color-1', '#551e1e');
